@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>template-parent</artifactId>
+        <groupId>com.xjwcode</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>template-model</artifactId>
+
+    <distributionManagement>
+        <repository>
+            <id>${project.groupId}</id>
+            <url>file:E:/GitRepository/my-repository</url>
+        </repository>
+    </distributionManagement>
+</project>
